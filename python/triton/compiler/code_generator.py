@@ -1206,8 +1206,8 @@ class CodeGenerator(ast.NodeVisitor):
                 for_op.set_attr("tt.disallow_acc_multi_buffer", self.builder.get_unit_attr())
             if flatten:
                 for_op.set_attr("tt.flatten", self.builder.get_unit_attr())
-            if warp_specialize:
-                for_op.set_attr("tt.warp_specialize", self.builder.get_unit_attr())
+          #  if warp_specialize:
+          #      for_op.set_attr("tt.warp_specialize", self.builder.get_unit_attr())
             if disable_licm:
                 for_op.set_attr("llvm.loop_annotation", self.builder.get_disable_loop_licm_attr())
 

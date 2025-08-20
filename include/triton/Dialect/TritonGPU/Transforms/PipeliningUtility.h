@@ -15,7 +15,7 @@ namespace triton {
 static const char *kNumStagesAttrName = "tt.num_stages";
 static const char *kDisallowAccMultiBufferAttrName =
     "tt.disallow_acc_multi_buffer";
-static const char *kWarpSpecializeAttrName = "tt.warp_specialize";
+static const char *kWarpSpecializeAttrName = "tt.warp_specialize__";
 static const char *kLoopStageAttrName = "loop.stage";
 static const char *kLoopClusterAttrName = "loop.cluster";
 static const char *kScheduledMaxStageAttrName = "tt.scheduled_max_stage";
